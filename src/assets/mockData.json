@@ -1,0 +1,11 @@
+{
+  "header": [
+    { "id":"home","name":"Home","hash":null,"icon":"","class":null,"desc":"Home button"},
+    { "id":"about","name":"Who We Are","hash":null,"icon":null,"class":null,"desc":"Who We Are button"},
+    { "id":"services","name":"What We Do","hash":null,"icon":null,"class":null,"desc":"What We Do button"},
+    { "id":"works","name":"Our Works","hash":null,"icon":null,"class":null,"desc":"Our Works button"},
+    { "id":"contact","name":"Get In Touch","hash":null,"icon":null,"class":null,"desc":"Get In Touch button"},
+    { "id":"phone","name":"Phone","hash":"tel:+918247807301","icon":"fa fa-phone","class":"cy","desc":"Phone number"},
+    { "id":"email","name":"Email","hash":"mailto:youistud@youistudio.com","icon":"fa fa-envelope","class":"cr","desc":"Email ID"}
+  ]
+}
