@@ -87,6 +87,7 @@ body {
   background-image: url(../images/bright-squares.png);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 input,
