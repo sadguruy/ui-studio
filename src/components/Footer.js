@@ -4,7 +4,7 @@ const Footer=()=>{
   const [copyDate,setCopyDate]=useState(new Date().getFullYear())
 
   return(
-    <footer class="wrapper">
+    <footer className="wrapper">
       <span>
         Copyright @ 2017 - {copyDate} - youistudio.com, All Rights Reserved.
       </span>
