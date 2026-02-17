@@ -21,7 +21,7 @@ const Header = ()=>{
                 headerData && headerData.length>0 && headerData.map((item,index)=>{
                   return (
                     <li key={index}>
-                      <a onClick={()=>handleOnClick(item.id)} href={item.hash&&item.hash} className={item.class&&item.class}>
+                      <a onClick={()=>handleOnClick(item.id)} href={item.hash?item.hash:"/"} className={item.class&&item.class}>
                         {item.icon && <i className={item.icon}></i>}
                         {!item.icon && item.name}
                       </a>
